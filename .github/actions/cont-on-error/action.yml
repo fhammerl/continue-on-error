@@ -1,0 +1,12 @@
+name: 'Hello World'
+description: 'Greet someone'
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello Start.
+      shell: bash
+    - run: exit 1
+      shell: bash
+      continue-on-error: true
+    - run: echo Hello Success!!.
+      shell: bash
