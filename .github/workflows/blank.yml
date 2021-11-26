@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Composite action
-        uses: fhammerl/continue-on-error/run/cont-on-err@main
+        uses: fhammerl/continue-on-error/run@main
